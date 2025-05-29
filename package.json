@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "goit-node-js",
   "type": "module",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "get-all": "node src/scripts/getAllContacts",
-    "generate": "node src/scripts/generateContacts.js",
-    "add-one": "node src/scripts/addOneContact.js",
-    "count": "node src/scripts/countContacts.js",
-    "remove-last": "node src/scripts/removeLastContact.js",
-    "remove-all": "node src/scripts/removeAllContacts.js"
+    "get-all": "tsx src/scripts/getAllContacts.ts",
+    "generate": "tsx src/scripts/generateContacts.ts",
+    "add-one": "tsx src/scripts/addOneContact.ts",
+    "count": "tsx src/scripts/countContacts.ts",
+    "remove-last": "tsx src/scripts/removeLastContact.ts",
+    "remove-all": "tsx src/scripts/removeAllContacts.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +18,10 @@
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "@faker-js/faker": "^9.8.0",
+    "@types/node": "^22.15.24",
     "eslint": "^9.2.0",
     "globals": "^15.1.0",
-    "nodemon": "^3.1.10"
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
   }
 }
